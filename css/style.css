@@ -103,10 +103,13 @@
 .modal__block {
   position: absolute;
   height: 100vh;
-  display: none;
   background-color: #0878ef;
   font-size: 5vh;
   color: white;
   padding: 10vh;
   line-height: 10vh;
+}
+
+.modal__block {
+  display: none;
 }
