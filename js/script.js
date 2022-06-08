@@ -20,8 +20,6 @@ function f2() {
 }
 btn__ok.addEventListener("click", f3);
 
-
-
 function f3() {
   const kod = pay__kod.value;
   if (
