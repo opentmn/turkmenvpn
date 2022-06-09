@@ -170,6 +170,54 @@ img {
   }
 }
 
+.finger3 {
+  top: 326px;
+  left: 160px;
+  animation-name: move3;
+ 
+}
+@keyframes move3 {
+100% {
+  top: 240px;
+}
+}
+
+.finger4 {
+  top: 190px;
+  left: 97px;
+  animation-name: move4;
+ 
+}
+@keyframes move4 {
+100% {
+  left: 220px;
+}
+}
+
+.finger5 {
+  top: 272px;
+  left: 97px;
+  animation-name: move5;
+ 
+}
+@keyframes move5 {
+100% {
+  left: 220px;
+}
+}
+
+.finger6 {
+  top: 403px;
+  left: 160px;
+  animation-name: move6;
+ 
+}
+@keyframes move6 {
+100% {
+  top: 330px;
+}
+}
+
 
   .display__none {
     display: none;
