@@ -1,4 +1,5 @@
 .wrapper {
+  /* display: none; */
 }
 .header {
   text-align: center;
@@ -113,3 +114,66 @@
 .modal__block {
   display: none;
 }
+
+
+
+.seting__block {
+  text-align: center;
+  /* background-color: aqua; */
+  position: absolute;
+  height: 100%;
+ display: none; 
+}
+.seting__block h1 {
+  font-size: 26px;
+  color: #ff0303;
+  line-height: 55px;
+}
+
+.anim__block {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+img {
+  border: 2px solid;
+}
+
+.finger {
+  width: 10%;
+  position: absolute;
+  border: none;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.finger1 {
+  top: 326px;
+  left: 160px;
+  animation-name: move1;
+ 
+}
+@keyframes move1 {
+100% {
+  top: 180px;
+}
+}
+.finger2 {
+  top: 361px;
+  left: 160px;
+  animation-name: move2;
+}
+@keyframes move2 {
+  100% {
+    top: 215px;
+  }
+}
+
+
+  .display__none {
+    display: none;
+  }
+  .display__block {
+    display: block;
+  }
