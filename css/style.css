@@ -218,6 +218,77 @@ img {
 }
 }
 
+.finger7 {
+  top: 400px;
+  left: 160px;
+  animation-name: move7;
+ 
+}
+@keyframes move7 {
+100% {
+  top: 290px;
+}
+}
+
+.finger8 {
+  top: 200px;
+  left: 250px;
+  animation-name: move8;
+ 
+}
+@keyframes move8 {
+100% {
+  top: 49px;
+}
+}
+
+.finger9 {
+  top: 200px;
+  left: 200px;
+  animation-name: move9;
+ 
+}
+@keyframes move9 {
+100% {
+  top: 49px;
+}
+}
+
+.finger10 {
+  top: 200px;
+  left: 52px;
+  animation-name: move10;
+ 
+}
+@keyframes move10 {
+100% {
+  top: 135px;
+}
+}
+
+.finger11 {
+  top: 390px;
+  left: 52px;
+  animation-name: move11;
+ 
+}
+@keyframes move11 {
+100% {
+  top: 230px;
+}
+}
+
+.finger12 {
+  top: 220px;
+  left: 170px;
+  animation-name: move12;
+ 
+}
+@keyframes move12 {
+100% {
+  top: 90px;
+}
+}
 
   .display__none {
     display: none;
