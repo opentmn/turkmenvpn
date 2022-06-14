@@ -4,7 +4,7 @@ const ssylka1 = document.createElement("a");
 ssylka1.setAttribute("href", s1);
 
 const s2 =
-  "https://drive.google.com/file/d/1fxF7yjqgH8LsyYf_y8Z4kdsD-kVl0wU0/view?usp=sharing";
+  "https://drive.google.com/drive/folders/1We4WH3OePMOlyY2Onmt1p7a80iw1iJPz?usp=sharing";
 const ssylka2 = document.createElement("a");
 ssylka2.setAttribute("href", s2);
 
